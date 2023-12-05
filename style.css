@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Lorem";
+    src: url(./HighlandGothicFLF.ttf);
+} /* la fuente*/
+
+body{
+    margin: 0;
+    font-family: "Lorem"
+} 
+
+header {
+    background-color: #466995; 
+    border-bottom: 1px solid #466995; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 10; 
+    top: 0;
+  } 
+
+.hola{
+    color: white;
+}
+
+nav{
+    background-color: rgb(16, 7, 7, 1);
+    padding: 7px 0 7px 0;
+    height: 60px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    margin-right: 10%;
+}
+
+nav ul a{
+    color:rgb(218, 217, 217);
+    text-decoration: none;
+    margin: 15px;
+    width: max-content;
+}
+
+span.icon{
+    width: 232px;
+    height: 45px;
+    background-size: 100% 100%;
+    display: block;
+    margin-right: 340px;
+    margin-top: -27px;
+}
+
+.icon.logo{
+    background-image: url(./imagenes/zyro-image.png);
+    
+}
+
+.Titulo{
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    font-size: 250%;
+    margin-bottom: 270px;
+    border: black solid 4px;
+    padding: 45px;
+    width: max-content;
+    border-radius: 3rem;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja__contenido{
+    width: 305px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 7%;
+    text-align: center;
+    z-index: -10;
+}
+
+#ideamos{
+    background-image: url(./imagenes/ideamos.jpg);
+    filter: blur(2px);
+}
+
+#diseñamos{
+    background-image: url(./imagenes/diseñamemos.jpg);
+    filter: blur(2px);
+}
+
+#publicitamos{
+    background-image: url(./imagenes/publicitamos.jpg);
+    filter: blur(2px);
+}
+
+.texto{
+    width: 305px;
+    height: 400px;
+    width: 305px;
+    height: 400px;
+    text-align: center;
+    margin-top: -400px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0.7px  0px 0px rgb(0, 0, 0),
+                 0px  1px 0px rgb(0, 0, 0),
+                -0.8px  0px 0px rgb(0, 0, 0),
+                 0px -0.8px 0px rgb(0, 0, 0);
+}
+
+.box-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto2{
+    width: 305px;
+    height: 400px;
+    width: 305px;
+    height: 400px;
+    text-align: center;
+    margin-top: -400px;
+    color:rgb(0, 0, 0);
+}
+
+#oscar{
+    background-image: url(./imagenes/IMG_5737.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#diego{
+    background-image: url(./imagenes/IMG_5739.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#antonio{
+    background-image: url(./imagenes/IMG_5741.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.caja__contenido2{
+    width: 305px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 7%;
+    text-align: center;
+    z-index: -10;
+}
+
+form {
+    position: relative;
+    width: 740px;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #fff url(background.jpg);
+    display: flex;
+    flex-flow: column wrap-reverse ;
+    gap: 24px;
+  }
